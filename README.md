@@ -1,5 +1,13 @@
 # API-end-points-creation-using-FASTAPI
 
+
+prerequisite: 
+- pip install uvicorn
+- pip install fastapi
+- pip install requests
+- pip install bs4
+
+
 we can use this below format to run the fast api usng uvicorn server
 
 `uvicorn <file_name>:<app_name> --reload`
