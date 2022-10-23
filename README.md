@@ -14,3 +14,11 @@ here
 - app : app name
 
 **Note:** file name and app name can be anything
+
+which the above command does not work use this pattern 
+
+` python -m uvicorn <file_name>:<app_name> --reload `
+
+eg:
+
+python -m uvicorn main:app --reload
